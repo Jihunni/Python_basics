@@ -7,6 +7,7 @@ Exercise series: Jupyter notebook from 'Learn Python Tutorials' in Kaggle
 - [Python - slice(), slicing하기 원하는 index를 정의하는 클래스](https://technote.kr/255)   
 - [40.1 제너레이터와 yield 알아보기](https://dojang.io/mod/page/view.php?id=2412)   
 - [python 메모리 관리](https://leemoney93.tistory.com/25)   
+- [Variables and memory addresses in Python](https://medium.com/@daniel.tooke/variables-and-memory-addresses-in-python-6d96d672ed3d)
 
 # ML/DL Reference
 - [[Kaggle Notebook] Deep Learning for Time Series Forecasting](https://www.kaggle.com/dimitreoliveira/deep-learning-for-time-series-forecasting)   
