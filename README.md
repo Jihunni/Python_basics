@@ -5,6 +5,7 @@ Exercise series: Jupyter notebook from 'Learn Python Tutorials' in Kaggle
 - [[Korean blog] Properties](https://dojang.io/mod/page/view.php?id=2476)   
 - [[Python] 파이썬 슬라이싱(slicing) 기본과 예제](https://twpower.github.io/119-python-list-slicing-examples)   
 - [Python - slice(), slicing하기 원하는 index를 정의하는 클래스](https://technote.kr/255)   
+- [40.1 제너레이터와 yield 알아보기](https://dojang.io/mod/page/view.php?id=2412)   
 
 # ML/DL Reference
 - [[Kaggle Notebook] Deep Learning for Time Series Forecasting](https://www.kaggle.com/dimitreoliveira/deep-learning-for-time-series-forecasting)   
