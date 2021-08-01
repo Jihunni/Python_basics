@@ -1,0 +1,106 @@
+Python 3 cheatsheet
+
+#Jupyter Notebook
+a : add on top
+b : add on button
+x : delete
+z : return to the last command
+m : markdown
+
+#library
+import tensorflow as tf
+import numpy as np
+import matplotlib.pyplot as plt
+%matplotlib inline  
+import pandas as pd
+
+#file I/O
+pd.DataFrame(pd.read_excel("fileName.xls", header=2))
+weather = pd.DataFrame(pd.read_csv("fileName.csv", header=0, encoding='CP949'))
+
+#data type
+type()
+float("NaN")
+ord('a') #ASCI2 
+
+#string
+str[2:5]
+str[2:-1]
+
+s = list("Hello world") #split string into list
+"".join(s) #join in a string 
+#loop
+for i, letter in enumerate(['A', 'B', 'C'], start=1):
+for i in range(10):
+[print(i) for i in range(4)]
+
+#matrix
+matrix[1]
+matrix[:,2]
+matrix[1,2]
+
+#panda data.frame
+df = pd.DataFrame([])  #initialization
+
+##exploration
+df.info() #gener info.
+df.describe() #statistics per column
+df.head() 
+df.tail()
+df.index()
+df.columns
+df.values 
+df.T
+df.columns #get column names
+
+##indexing
+df.set_index('colName', inplace=True)
+
+##sorting
+df.sort_index(axis=0, ascending=False) #sort by index
+df.sort_index(axis=1, ascending=False) #sort by columns
+df.sort_values(by='B') #sort by column 'B'
+
+##NA handling
+weather_df.isna().describe()
+df.fillna(0) #replace NA value with 0
+
+df.dropna(axis=1) #drop na
+df[0:29].loc[:,~df.columns.str.match("Unnamed")]
+df[0:29].iloc[:,0:26].drop('Unnamed: 1',axis=1)
+
+## select
+df[1:2]
+df.iloc[:,0]
+df.iloc[:,:]
+
+##convert data type
+df.as_matrix()
+df.reshape()
+
+
+#class
+class className(parent_className):
+
+
+#function
+def functionName(self, arg1):
+
+
+
+Tensorflow
+
+
+object
+tf.constant("string", tf.string)
+tf.constant(1.42152213, tf.float64)
+tf.zeros([1, 2, 3, 4])
+
+operation
+tf.add(a,b)
+tf.substract(a,b)
+tf.multiply(a,b)
+
+
+tf.rank(tensor),numpy()
+tf.shape(tensor).numpy().tolist()
