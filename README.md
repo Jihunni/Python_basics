@@ -9,6 +9,7 @@ Exercise series: Jupyter notebook from 'Learn Python Tutorials' in Kaggle
 - [python 메모리 관리](https://leemoney93.tistory.com/25)   
 - [Variables and memory addresses in Python](https://medium.com/@daniel.tooke/variables-and-memory-addresses-in-python-6d96d672ed3d)
 - [가상환경](https://galid1.tistory.com/250?category=746439)
+- numpy.newaxis | [link](https://azanewta.tistory.com/3)
 
 # ML/DL Reference
 - [[Kaggle Notebook] Deep Learning for Time Series Forecasting](https://www.kaggle.com/dimitreoliveira/deep-learning-for-time-series-forecasting)   
